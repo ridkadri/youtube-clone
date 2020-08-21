@@ -28,3 +28,15 @@
 .sidebarRow:hover > .sidebarRow_title {
     font-weight: bold;
 }
+
+.sidebarRow.selected {
+    background-color: lightgrey;
+}
+
+.sidebarRow.selected > .sidebarRow_icon {
+    color: red;
+}
+
+.sidebarRow.selected > .sidebarRow_title {
+    font-weight: bold;
+}
